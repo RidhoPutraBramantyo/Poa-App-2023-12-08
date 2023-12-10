@@ -1,0 +1,59 @@
+/* Sidebar.css */
+.sidebar {
+  height: 100vh;
+  padding: 50px 0 0;
+  background-color: #f8f9fa;
+}
+.sidebar {
+  position: fixed;
+  top: 0; /* Rapat ke atas */
+  bottom: 0; /* Penuh ke bawah */
+  left: 0; /* Rapat ke kiri */
+  width: 200px; /* Atur lebar sidebar */
+  background-color: #f8f9fa; /* Warna latar sidebar */
+  overflow-y: auto; /* Membuat scrollable jika konten panjang */
+  z-index: 1000; /* Pastikan sidebar di atas konten ketika scroll */
+}
+
+.sidebar-sticky {
+  position: sticky;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.nav-link {
+  border-radius: 0;
+}
+
+.nav-link.active {
+  background-color: #f0f0f0;
+}
+
+/* Tambahkan lebih banyak styling sesuai kebutuhan */
+
+.sidebar-button {
+  background-color: #d9534f; /* Warna latar tombol */
+  color: white; /* Warna teks */
+  border: none; /* Hapus border */
+  padding: 10px 15px; /* Padding di dalam tombol */
+  margin: 5px 0; /* Margin di antara tombol */
+  border-radius: 5px; /* Sedikit membulatkan tepi tombol */
+  display: flex; /* Menggunakan flexbox untuk align items */
+  align-items: center; /* Menengahkan item secara vertikal */
+  justify-content: center; /* Menengahkan teks secara horizontal */
+  text-decoration: none; /* Menghilangkan garis bawah teks */
+  font-size: 16px; /* Ukuran font */
+}
+
+.sidebar-button:hover {
+  background-color: #c9302c; /* Warna latar tombol saat di-hover */
+  cursor: pointer; /* Mengubah cursor menjadi pointer */
+}
+
+/* Untuk ikon, anda bisa menambahkan padding di sebelah kiri teks jika diperlukan */
+.sidebar-button i {
+  margin-right: 8px; /* Jarak antara ikon dan teks */
+}

@@ -1,0 +1,22 @@
+/* Header.css */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  width: 100%;
+  max-width: 300px; /* Sesuaikan dengan lebar yang Anda inginkan */
+}
+
+.navbar .navbar-nav {
+  align-items: center;
+}
+
+.nav-dropdown {
+  margin-left: auto;
+}
+
+/* Sesuaikan warna dan padding dropdown jika perlu */
+.nav-dropdown .dropdown-menu {
+  right: 0; /* Pastikan dropdown muncul di sisi kanan */
+}
