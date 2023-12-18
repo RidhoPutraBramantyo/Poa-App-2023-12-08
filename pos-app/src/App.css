@@ -1,1 +1,18 @@
-/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Menggunakan seluruh tinggi viewport */
+}
+
+.app-body {
+  display: flex;
+  flex: 1; /* Flex container untuk sidebar dan konten */
+}
+
+.app-content {
+  flex-grow: 1; /* Konten akan mengisi ruang yang tersisa */
+  overflow-y: auto; /* Tambahkan scrollbar jika konten lebih panjang dari viewport */
+  padding: 20px;
+}
+
+/* Tambahkan import untuk Header.css dan Sidebar.css jika belum */

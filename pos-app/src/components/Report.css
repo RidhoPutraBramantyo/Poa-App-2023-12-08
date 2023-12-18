@@ -1,0 +1,27 @@
+/* Report.css */
+.report {
+  /* Atur styling untuk container report jika diperlukan */
+}
+
+.report-navbar {
+  /* Atur styling untuk navbar report */
+}
+
+.report-navbar a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #000; /* Warna teks default */
+}
+
+.report-navbar a:hover {
+  background-color: #f0f0f0; /* Warna latar belakang saat hover */
+}
+
+.report-navbar a.active {
+  background-color: blue; /* Warna latar belakang untuk tombol aktif */
+  color: white; /* Warna teks untuk tombol aktif */
+}
+
+.report-content {
+  /* Atur styling untuk konten report jika diperlukan */
+}

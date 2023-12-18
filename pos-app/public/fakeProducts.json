@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Margherita",
+    "category": "Pizza",
+    "price": "$10.99",
+    "status": true,
+    "image": "https://example.com/pizza1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Spaghetti Carbonara",
+    "category": "Pasta",
+    "price": "$12.99",
+    "status": true,
+    "image": "https://example.com/pasta1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chicken Alfredo",
+    "category": "Pasta",
+    "price": "$11.99",
+    "status": false,
+    "image": "https://example.com/pasta2.jpg"
+  }
+]

@@ -1,0 +1,32 @@
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.admin-page input {
+  margin-bottom: 10px;
+}
+
+.add-admin {
+  margin-bottom: 10px;
+  background-color: red;
+  color: white;
+}
+
+.filter-tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.admin-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-page th,
+.admin-page td {
+  border: 1px solid black;
+  padding: 10px;
+}

@@ -1,0 +1,37 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-logo {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar-section-title {
+  color: #aaa;
+  margin: 10px 0;
+}
+
+.sidebar-item {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  margin: 5px 0;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-item.active {
+  background-color: red;
+  color: white;
+}
+
+/* Tambahkan responsivitas atau gaya tambahan sesuai kebutuhan */

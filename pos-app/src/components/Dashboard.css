@@ -1,0 +1,49 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.dashboard-chart {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.dashboard-summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.dashboard-summary-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-summary-item-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-summary-item-label {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dashboard-summary-item-value::before {
+  content: "Rp. ";
+}
